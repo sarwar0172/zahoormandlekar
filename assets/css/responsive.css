@@ -1,0 +1,1583 @@
+/* Big screen :1200px. */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .features {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .features div#v-pills-tab {
+        min-width: 100%;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px !important;
+    }
+    .cnts {
+        width: 100%;
+        padding: 0 20px 20px;
+    }
+    .l_content {
+        width: 100%;
+        top: 0px;
+    }
+    .cnts .img {
+        position: relative;
+        right: auto !important;
+        top: auto !important;
+    }
+
+    .contatinfos .icon_box {
+        width: 50px;
+        height: 55px;
+    }
+
+    .contatinfos .box-contacs p a {
+        font-size: 13px;
+    }
+
+    .contatinfos .box-contacs p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .other-blk {
+        padding: 35px 28px;
+    }
+}
+
+
+/* Normal screen :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .pack h2 {
+        font-size: 26px;
+    }
+    .single-pricing ul li i {
+        margin-left: 1px;
+        font-size: 14px;
+        margin-right: 2px;
+    }
+    .services_slider .owl-prev {
+        top: 22%;
+        font-size: 36px;
+        left: 5px;
+        margin: 0;
+    }
+    .services_slider .owl-next {
+        top: 22%;
+        font-size: 36px;
+        margin-right: -10px;
+    }
+    .process-blk:after {
+        width: 205px;
+    }
+    .process-blk.second::after {
+        -webkit-transform-origin: 100%;
+            -ms-transform-origin: 100%;
+                transform-origin: 100%;
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+        right: 83px;
+        top: -57px;
+    }
+    .filter_items {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .top_menus a {
+        padding: 5px 10px;
+        margin: 0 5px;
+    }
+    .pricings-area.ptwoss.prc .offers {
+        margin: 0 0;
+    }
+    .hero_content .top_content h4 span {
+        width: 4px;
+        height: 4px;
+        margin: 0 1px;
+    }
+    .contatinfos .box-contacs.boxcnt-2:before {
+        background-position: -110px -322px;
+    }
+    .contatinfos .box-contacs.boxcnt-3:before {
+        background-position: -198px -321px;
+    }
+    .pricing_tab ul.nav-pills li.nav-item a {
+        font-size: 15px;
+        padding: 9px 10px;
+    }
+    .alerts p {
+        font-size: 15px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+        padding-top: 17px;
+    }
+    .contatinfos .box-contacs.boxcnt-4:after {
+        width: 40px;
+        height: 40px;
+        left: 10%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .hero-area.fst .hero_items,
+    .hero_single_item,
+    .hero-area.wp-design .hero_items {
+        height: 535px !important;
+    }
+
+    .tbl_top h3 {
+        font-size: 18px;
+    }
+
+    .tbl_top .price_rate {
+        font-size: 19px;
+    }
+
+    .tbl_top .price_rate .short_price {
+        font-size: 14px;
+    }
+
+    .copright_text {
+        margin-top: -43px !important;
+    }
+
+    .services-content2 br{
+        display: none;
+    }
+    .mcnc br{
+        display: none;
+    }
+    .content .p1_web br,
+    .p_last_web br{
+        display: none;
+    }
+    .we_content br{
+        display: none;
+    }
+    .singel_choose br{
+        display: none;
+    }
+    .get_off h2 {
+        font-size: 24px;
+    }
+
+    .section_title h2 {
+        font-size: 24px;
+    }
+    .mcnc p{
+        font-size: 14px;
+    }
+    .services-content h3 {
+        font-size: 20px !important;
+
+    }
+    .single-pricing h2 {
+        font-size: 23px;
+    }
+    .single-pricing ul li {
+        font-size: 15px;
+    }
+}
+
+
+/* Tablet screen :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tbl_top h3 {
+        font-size: 19px;
+    }
+    .pack {
+        display: block;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 0 auto;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .pack h2 {
+        font-size: 24px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .single-pricing ul li i {
+        margin-left: 1px;
+        font-size: 14px;
+        margin-right: 2px;
+    }
+    .services_slider .owl-prev {
+        top: 22%;
+        font-size: 36px;
+        left: 5px;
+        margin: 0;
+    }
+    .services_slider .owl-next {
+        top: 22%;
+        font-size: 36px;
+        margin-right: -10px;
+    }
+    .process-blk:after {
+        display: none;
+    }
+    .process-blk.second::after {
+        -webkit-transform-origin: 100%;
+            -ms-transform-origin: 100%;
+                transform-origin: 100%;
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+        right: 83px;
+        top: -57px;
+    }
+    .filter_items {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .filter_items .mix {
+        max-width: calc(33.33% - 10px);
+    }
+    .design_tab .nav-pills li {
+        margin-bottom: 15px;
+    }
+    .d_tab_left {
+        text-align: center;
+    }
+    .alerts .alert {
+        padding: 0 60px;
+        text-align: center;
+        margin: auto;
+    }
+    .single-pricing {
+        margin-bottom: 30px;
+    }
+    .pricing_tab ul.nav-pills li.nav-item {
+        margin-top: 15px;
+    }
+    .tbl-blk {
+        margin-bottom: 30px;
+    }
+    .flips .books img {
+        width: 30%;
+        height: 210px;
+        -o-object-fit: cover;
+           object-fit: cover;
+        margin-bottom: 45px;
+    }
+    .printings img {
+        margin-bottom: 0px;
+    }
+    .pricings-area.ptwoss.prc ul#pills-tab li.nav-item {
+        width: 30%;
+    }
+    .pricing_tab ul.nav-pills li.nav-item a,
+    .pricing_tab ul.nav-pills li.nav-item a {
+        font-size: 10px;
+    }
+    .top_menus {
+        padding-top: 0px;
+    }
+    .top_menus a {
+        margin-top: 10px;
+    }
+    .printing-area.mpr img {
+        margin-bottom: 30px;
+    }
+    .other-blk {
+        padding: 20px;
+        margin-top: 70px;
+    }
+    .other-blk h1 {
+        width: 80px;
+        height: 80px;
+        margin-top: -58px;
+    }
+    .bottom_content {
+        margin-top: 65px;
+    }
+    .hero_content a.hero-btn {
+        margin-bottom: 25px;
+    }
+    .slider_imgs img {
+        position: relative !IMPORTANT;
+    }
+    .hero-area.fst .slider_imgs {
+        position: relative;
+        margin-top: 80px;
+        text-align: center;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider_imgs img.two {
+        top: -90px;
+        left: -80px;
+    }
+    .slider_imgs img.three {
+        top: -55px;
+        left: -155px;
+    }
+    .slider_imgs img.four {
+        bottom: 285px;
+        width: 300px;
+        left: 120px;
+    }
+    .hero-area.fst {
+        max-height: 860px;
+    }
+    .hero-area.wp-design .hero_items:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000000a3;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .contatinfos .box-contacs.boxcnt-4::after {
+        left: 8%;
+    }
+    .hero_content.logo_branding {
+        padding-right: 50px;
+    }
+    .hero-area.photographyssss .hero_single_item {
+        padding-right: 80px;
+    }
+    .hero_content.photography h1 {
+        font-size: 26px;
+    }
+    .all_co .s_co {
+        width: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .s_co.second:after {
+        display: none;
+    }
+    .tls p {
+        font-size: 17px;
+    }
+    .tls p span svg {
+        height: 40px;
+    }
+    .pack a.Theme-btn-danger {
+        padding: 12px 20px;
+        position: relative;
+        overflow: hidden !important;
+        display: block;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin: auto;
+    }
+    img.mfp-img {
+        width: 500px;
+        max-width: 500px;
+        min-height: 500px;
+    }
+    .footer-widget.logo a {
+        display: block;
+        margin-top: 4px;
+    }
+    .footer-widget.quick_links h4 {
+        font-size: 18px;
+    }
+    .footer-widget.quick_links a {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .footer-widget.menu_links a {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .footer-widget.contact h3 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .footer-widget.contact h3 a {
+        font-size: 11px;
+    }
+    .footer-widget.contact.c_email {
+        font-size: 10px;
+        margin-top: -4px;
+    }
+    .footer-widget.contact a {
+        font-size: 14px;
+    }
+    .custom-i-view {
+        margin-bottom: 5px;
+    }
+    .footer-widget.contact .custom-res {
+        display: none;
+    }
+    .custom-respon {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .pricing_tab.printing_tab ul li.nav-item {
+        width: 28%;
+    }
+    .pricing_tab.printing_tab ul li.nav-item:after {
+        width: 20px;
+        left: -20px;
+    }
+
+    .pricing_tab.printing_tab.photgraphy_tab ul li.nav-item:after {
+        width: 22px;
+        left: -22px;
+    }
+
+    .copright_text {
+        margin-top: -44px !important;
+    }
+
+}
+
+@media(max-width: 991px) {
+    .right_img img {
+        margin-top: 30px;
+    }
+
+    .flps{
+        max-width: 100%;
+    }
+
+    .contatinfos .box-contacs {
+        margin-top: 30px;
+    }
+
+    section.bennar.abt {
+        padding: 40px 15px;
+    }
+
+    section.bennar.abt h3 span {
+        display: inline;
+        right: auto;
+    }
+
+    .mt_30{
+        margin-top: 0;
+    }
+
+    .get_off .btts a.nlk {
+        font-size: 19px;
+    }
+
+    .d_tab_right{
+        margin-left:0;
+    }
+
+    .services-content p {
+        max-width: 100%;
+    }
+    
+    .services-content2 br{
+        display: none;
+    }
+    .mcnc br{
+        display: none;
+    }
+
+    .content .p1_web br,
+    .p_last_web br{
+        display: none;
+    }
+    .printing_p{
+        font-size: 14px;
+    }
+    .printing_p br{
+        display: none;
+    }
+    .other-blk p {
+        font-size: 13px;
+    }
+    .photography_p br{
+        display: none;
+    }
+    .content a {
+        margin-bottom: 40px;
+    }
+
+    .pro_blk h2 {
+        font-size: 17px;
+    }
+
+    .fl_co h4 {
+        font-size: 24px;
+    }
+
+    .flip_last_text{
+        font-size: 23px;
+    }
+
+    .flip_last_text br{
+        display: none;
+    }
+
+    .we_content br{
+        display: none;
+    }
+    .mcnc br{
+        display: none;
+    }
+    .singel_choose p {
+        font-size: 11px;
+    }
+
+    .singel_choose br{
+        display: none;
+    }
+    .ab_help br{
+        display: none;
+    }
+    .section_title h2 {
+        font-size: 24px;
+    }
+    .creative_p {
+        max-width: 522px;
+    }
+    .web_media{
+        font-size: 15px;
+    }
+    .mcnc p{
+        font-size: 14px;
+    }
+    .design_mid_sec h2 {
+        font-size: 21px;
+    }
+    .design_mid_sec h4 {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 768px) {
+    .copright_text {
+        margin-top: -24px;
+    }
+}
+
+
+/* small screen :320px. */
+
+@media (max-width: 767px) {
+    .alerts p {
+        font-size: 15px;
+        padding-bottom: 0;
+        padding-top: 13px;
+    }
+    .pack {
+        display: block;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .pack h2 {
+        font-size: 24px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .single-pricing ul li i {
+        margin-left: 1px;
+        font-size: 14px;
+        margin-right: 2px;
+    }
+    .services_slider .owl-prev {
+        top: 22%;
+        font-size: 36px;
+        left: 5px;
+        margin: 0;
+    }
+    .services_slider .owl-next {
+        top: 22%;
+        font-size: 36px;
+        margin-right: -10px;
+    }
+    .process-blk:after {
+        display: none;
+    }
+    .process-blk.second::after {
+        -webkit-transform-origin: 100%;
+            -ms-transform-origin: 100%;
+                transform-origin: 100%;
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+        right: 83px;
+        top: -57px;
+    }
+    .filter_items {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .filter_items .mix {
+        max-width: calc(50% - 10px);
+    }
+    .design_tab .nav-pills li {
+        margin-bottom: 15px;
+    }
+    .d_tab_left {
+        text-align: center;
+        display: none;
+    }
+    .alerts .alert {
+        padding: 0 30px;
+        text-align: center;
+        margin: auto;
+    }
+    .single-pricing {
+        margin-bottom: 30px;
+    }
+    .footer-widget.logo a {
+        display: block;
+        margin-top: 4px;
+    }
+    .footer-widget.quick_links h4 {
+        font-size: 15px;
+    }
+    .footer-widget.quick_links a {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .footer-widget.menu_links a {
+        font-size: 13px;
+        line-height: 9.71px;
+    }
+    .footer-widget.contact h3 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .footer-widget.contact h3 a {
+        font-size: 11px;
+    }
+    .footer-widget.contact.c_email {
+        font-size: 10px;
+        margin-top: -4px;
+    }
+    .footer-widget.contact a {
+        font-size: 14px;
+    }
+    .custom-i-view {
+        margin-bottom: 5px;
+    }
+    .footer-widget.contact .custom-res {
+        display: none;
+    }
+    .custom-respon {
+        display: block;
+        font-size: 14px;
+        margin-top: 35px;
+        margin-bottom: 0;
+    }
+    .alerts span {
+        right: 15px;
+        font-size: 24px;
+    }
+    .design-area {
+        padding-bottom: 25px;
+    }
+    .logo-area a img {
+        display: block;
+        height: 75px;
+        margin-bottom: 0;
+    }
+    .d_tab_right h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+        letter-spacing: 0;
+    }
+    .c_logo_btn:after {
+        display: none;
+    }
+    .c_logo_btn:before {
+        width: 100%;
+        right: 0;
+    }
+    .testimonal_item {
+        display: block;
+    }
+    .section_title h2 {
+        font-size: 20px;
+    }
+    .services-content h3 {
+        font-size: 22px;
+    }
+    .services-content p {
+        max-width: 100%;
+    }
+    .services-content a.theme-btn {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    h2.design_title {
+        font-size: 22px;
+    }
+    .d_tab_right {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .c_logo_btn {
+        margin-top: 40px;
+    }
+    .design_mid_sec h2 {
+        font-size: 22px;
+    }
+    .design_mid_sec h1 {
+        font-size: 26px;
+        margin: 30px 0;
+        margin-bottom: 20px;
+    }
+    .alerts {
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .proccess-title h3 {
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .proccess-title h3 span {
+        margin-bottom: -10px;
+        display: block;
+    }
+    .proccess-title h2 {
+        font-size: 25px;
+    }
+    .ttest_tittle h2 {
+        margin-bottom: 10px;
+        font-size: 27px;
+    }
+    .header-top {
+        padding: 25px 0;
+    }
+    .header-top .row.fle {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    span.mn_btn {
+        font-size: 30px;
+    }
+    .pricing_tab ul.nav-pills li.nav-item,
+    .pricing_tab ul.nav-pills li.nav-item {
+        margin-bottom: 15px;
+        width: calc(100% - 20px);
+    }
+    .tbl-blk {
+        margin-bottom: 30px;
+    }
+    .top_price {
+        display: block;
+        padding: 15px 20px;
+    }
+    .top_price h2 {
+        font-size: 30px;
+        margin-bottom: -8px;
+        margin-top: 15px;
+    }
+    .one-stop {
+        padding: 20px 20px;
+    }
+    .one-stop h3 {
+        font-size: 20px;
+    }
+    .srv {
+        padding: 0 20px;
+    }
+    .bottom_part {
+        margin: 0 20px;
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .right_f_content {
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .get_off .btts a.theme-btn {
+        padding: 10px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        display: block;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .get_off .btts a.nlk {
+        font-size: 14px;
+        display: block;
+    }
+    .current-work .section-title h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .current-work .mix {
+        width: 100%;
+        margin: 0px;
+        margin-top: 15px;
+        height: 130px;
+    }
+    .current-work .row,
+    section.portfolio.prts .row{
+        margin-left: -7.5px;
+        margin-right: -7.5px;
+    }
+    .current-work .row [class*=col-],
+    .current-work .row .col,
+    section.portfolio.prts .row [class*=col-],
+    section.portfolio.prts .row .col{
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+    }
+    section.portfolio.prts .mix{
+        margin-bottom: 15px;
+        height: 160px;
+    }
+    .current-work {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .get_off h2 {
+        font-size: 22px;
+    }
+    .flips {
+        padding: 20px 15px;
+        padding-top: 30px;
+    }
+    .flips h2 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    .flips .books {
+        display: block;
+    }
+    .flips .books img {
+        width: 100%;
+        height: 195px;
+        margin-bottom: 20px;
+    }
+    .flips h3 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .pr_title p.t-text {
+        font-size: 14px;
+        padding: 15px 15px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .fl_img {
+        width: 200px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .fl_co p {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .Flip_book-area {
+        padding-bottom: 60px;
+    }
+    .testimonail-area {
+        padding: 32px 0;
+        padding-bottom: 65px;
+    }
+    .process-area.vtwo .process-blk .m_img {
+        width: 130px;
+        height: 130px;
+    }
+    .process-area.vtwo .process-blk .m_img img {
+        max-width: 60%;
+    }
+    .printings {
+        padding: 0 0px;
+    }
+    .printings.photo h3 {
+        font-size: 24px;
+    }
+    .printings img {
+        display: block;
+        margin-bottom: 0px;
+    }
+    .top_menus {
+        padding-top: 0px;
+    }
+    .top_menus a {
+        margin-top: 10px;
+    }
+    .pricings-area.ptwoss.prc ul#pills-tab li.nav-item {
+        width: 100%;
+    }
+    .pricings-area.ptwoss li.nav-item .nav-link.active:before {
+        display: none;
+    }
+    .pricings-area.ptwoss li.nav-item .nav-link.active:after {
+        display: none;
+    }
+    .pricings-area.ptwoss li.nav-item:after {
+        display: none;
+    }
+    .pricings-area.ptwoss.prc .offers {
+        margin: 0 0px;
+    }
+    .pricings-area.ptwoss div#pills-tabContent {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .pricings-area.prc {
+        padding-bottom: 60px;
+    }
+    .printing-area .printings h3 {
+        font-size: 25px;
+        color: #36454f;
+    }
+    .printing-area.mpr img {
+        margin-bottom: 0px;
+    }
+    .pricings-area.ptwoss ul.nav-pills {
+        margin-bottom: 20px !important;
+    }
+    .d_srv ul {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    .d_srv a.theme-btn {
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-size: 13px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .pricings-area.ptwoss .right_img {
+        margin-bottom: 50px;
+    }
+    .pr_imgs img {
+        width: 30.6%;
+    }
+    .pr_imgs {
+        margin-bottom: 20px;
+    }
+    .hero-area .container {
+        padding: 0;
+    }
+    .bottom_content {
+        margin-top: 35px;
+    }
+    .hero_content a.hero-btn {
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+    .slider_imgs img {
+        position: relative !IMPORTANT;
+    }
+    .hero-area.fst .slider_imgs {
+        position: relative;
+        margin-top: 80px;
+        text-align: center;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    .slider_imgs img.one {
+        width: 226px;
+    }
+    .slider_imgs img.two {
+        top: -65px;
+        left: -50px;
+        width: 110px;
+    }
+    .slider_imgs img.three {
+        top: -45px;
+        left: -75px;
+        width: 95px;
+    }
+    .slider_imgs img.four {
+        bottom: 150px;
+        width: 150px;
+        left: 71px;
+    }
+    .hero-area.fst {
+        max-height: 650px;
+    }
+    .hero_content .top_content h4 {
+        line-height: 30px;
+    }
+    .hero_content.logo_branding .top_content h4 {
+        font-size: 18px;
+    }
+    .hero_content.logo_branding .bottom_content {
+        margin-top: 85px;
+    }
+    .hero_content.photography h1 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .hero_content.photography .bottom_content {
+        margin-top: 22px;
+        text-align: left !important;
+    }
+    .hero_content.photography h1.btn_hd {
+        margin-right: 0;
+    }
+    .photographyssss .hero_single_item {
+        padding: 35px 0;
+    }
+    .hero-area.wp-design .hero_items:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000000a3;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .hero-area.wp-design .top_content h2 {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 32px;
+        position: relative;
+    }
+    .hero-area.wp-design .hero_single_item a.hero-btn {
+        padding: 15px 9px;
+    }
+    .hero_content.logo_branding .bottom_content,
+    .hero-area.wp-design .bottom_content {
+        margin-top: 35px;
+    }
+    section.bennar.pricingss {
+        margin-bottom: 50px;
+        min-height: auto;
+        padding: 35px 0;
+    }
+    .hero_single_item {
+        padding: 30px 0 30px;
+    }
+    .services-area .section_title {
+        margin-bottom: 20px;
+    }
+    .services-content {
+        margin-top: 30px;
+    }
+    .design_tab ul#pills-tab {
+        margin-bottom: 0px !important;
+    }
+    .ttest_tittle {
+        margin-bottom: 20px;
+    }
+    .mobile-menu .p_info {
+        margin-top: 20px;
+    }
+    section.support_center {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .contatinfos .box-contacs.boxcnt-2:before {
+        background-position: -110px -322px;
+    }
+    .contatinfos .box-contacs.boxcnt-3:before {
+        background-position: -198px -321px;
+    }
+    .contatinfos .box-contacs.boxcnt-4:after {
+        width: 35px;
+        height: 35px;
+        left: 25px;
+    }
+    .sub_menu_price ul li a::after {
+        display: none;
+    }
+    .hero_content {
+        position: relative;
+        left: 0px;
+        padding: 0 15px;
+    }
+    .all_co .s_co {
+        width: 100%;
+    }
+    .all_co .s_co:after {
+        top: auto;
+        right: 11px;
+        -webkit-transform: rotate(-225deg);
+            -ms-transform: rotate(-225deg);
+                transform: rotate(-225deg);
+        bottom: -9px;
+    }
+    .all_co .s_co img {
+        margin-top: 0;
+    }
+    .flps {
+        margin-top: 40px;
+    }
+    .tls {
+        padding: 25px 0px;
+        margin-top: 25px;
+        margin-bottom: 60px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        padding-top: 0px;
+    }
+    .tls p span svg {
+        height: 40px;
+    }
+    .tls p {
+        margin: auto;
+        margin-top: 30px;
+        width: 50%;
+        text-align: center;
+        font-size: 14px;
+    }
+    .ftop p.t-text {
+        font-size: 14px;
+    }
+    .fl-cons img {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .c-form a.theme-btn {
+        min-width: 240px;
+    }
+    .c-form button.close {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+        position: absolute;
+        top: -35px;
+        right: 15px;
+        -webkit-transform: scale(.8);
+            -ms-transform: scale(.8);
+                transform: scale(.8);
+    }
+    .c-form {
+        padding-top: 25px;
+    }
+    .c-form .submit_btn {
+        margin-top: 0;
+    }
+    section.about_bg h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        width: 100%;
+        margin: 0;
+        line-height: 24px;
+        font-weight: 500;
+        padding: 0 10px;
+    }
+    .pack a.Theme-btn-danger {
+        padding: 12px 20px;
+        position: relative;
+        overflow: hidden !important;
+        display: block;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin: auto;
+    }
+    img.mfp-img {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+    }
+    .nav-pills li {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .toggle_bar {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        max-width: 30px;
+        padding: 0;
+        text-align: right;
+        padding-right: 1px;
+        cursor: pointer;
+    }
+    .alerts {
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+                position: relative;
+                padding: 15px;
+    }
+    #hide i {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+        margin-top: 5px;
+    }
+    .cnts {
+        display: block;
+    }
+    .cnts .img {
+        margin-top: 20px;
+    }
+    .img_sec {
+        float: none !important;
+        margin-left: 0 !important;
+    }
+    .pricings-area.ptwoss.cus-work .pricing_tab ul li.nav-item {
+        width: calc(100% - 20px);
+    }
+
+    #pricing_page_tab ul.nav-pills li.nav-item {
+        margin: 0 15px 15px 0;
+        max-width: calc(100% - 30px);
+    }
+
+    .right_img h1{
+        font-size: 26px;
+    }
+
+    .hero-area.fst .hero_items,
+    .hero_single_item,
+    .hero-area.wp-design .hero_items {
+        height: 480px !important;
+    }
+
+    .pricings-area.ptwoss li.nav-item a.active {
+        margin-left: -1px;
+        margin-right: -1px;
+    }
+    #pricing_page_tab ul.nav-pills li.nav-item a.active{
+        width: calc(100% + 2px);
+    }
+    .mt_m_0{
+        margin-top: 0 !important;
+    }
+
+    .pricing_table_content {
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+
+    .feature-area {
+        margin-top: 50px;
+    }
+
+    .section_title {
+        margin-bottom: 35px;
+    }
+    .testimonal_item .test_content {
+        padding: 30px 0px;
+    }
+    .testimonails .owl-dots {
+        bottom: -15px;
+    }
+
+    .home_title {
+        font-size: 20px !important;
+    }
+    .mcnc br{
+        display: none;
+    }
+    .printing_p{
+        font-size: 13px;
+    }
+    .flip_p {
+        font-size: 14px;
+    }
+    .flip_p br{
+        display: none;
+    }
+
+    .fl_co{
+        text-align: center;
+    }
+
+    .fl_co .p1 {
+        font-size: 16px;
+    }
+
+    .flip_last_text {
+        font-size: 21px;
+    }
+    .ab_we p {
+        font-size: 13px;
+    }
+
+    section.bennar.abt h3 {
+        font-size: 26px;
+    }
+        h3.ab_help {
+        font-size: 17px;
+    }
+    .web_media {
+        font-size: 14px;
+    }
+    .mcnc p {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 575px) {
+    .hero_content .top_content h4 {
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .bottom_content p br {
+        display: none;
+    }
+    .hero-area.fst .hero_items {
+        min-height: auto;
+    }
+    .testimonails {
+        padding: 10px 0px;
+    }
+    .con_info a:first-child {
+        padding-bottom: 0;
+    }
+    footer {
+        background: #070707;
+        padding: 20px 10px 50px;
+    }
+    .hero_content p br {
+        display: none;
+    }
+    .another-sec {
+        margin-top: 15px;
+    }
+    .right_img h1 {
+        font-size: 30px;
+        letter-spacing: 0;
+    }
+    .top_content p br {
+        display: none;
+    }
+
+    .head-cus h2 {
+        font-size: 15px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
+
+    .head-cus h2 br{
+        display: none;
+    }
+
+    .blog-1 h2, .blog-2 h2, .blog-3 h2 {
+        font-size: 25px;
+    }
+
+    .blog-1 h4, .blog-2 h4, .blog-3 h4 {
+        font-size: 18px;
+    }
+
+    .blog-3 h1 {
+        font-size: 25px;
+    }
+
+    .photoss .mix {
+        margin-bottom: 140px;
+    }
+
+    section.bennar.abt h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .tbl_top h3 {
+        font-size: 20px;
+    }
+
+    .tbl_top .price_rate {
+        font-size: 22px;
+    }
+
+    .tbl_top .price_rate .short_price {
+        font-size: 15px;
+    }
+
+    .d-blk ul {
+        padding-left: 12px;
+    }
+
+    .testimonails .owl-dots {
+        bottom: -15px;
+    }
+
+    section.bennar {
+        min-height: 100px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    section.bennar h3 {
+        font-size: 20px;
+    }
+
+    .use-policy ul {
+        padding-left: 15px;
+    }
+
+    .contatinfos {
+        margin-bottom: 10px;
+    }
+
+    .contatinfos.v2{
+        margin-bottom: 45px;
+    }
+
+    .pricings-area.prc {
+        padding-bottom: 40px;
+    }
+
+    .filter_items{
+        margin-left: -7.5px;
+        margin-right: -7.5px;
+    }
+
+    .filter_items .mix {
+        max-width: calc(50% - 15px);
+        margin: 7.5px;
+        height: 170px;
+    }
+
+    h2.design_title {
+        margin-top: 0px !important;
+    }
+
+    .Offfer_area {
+        margin-top: 15px;
+    }
+
+    .Flip_book-area .get_off {
+        margin-top: 45px;
+    }
+
+    .tls {
+        margin-bottom: 30px;
+    }
+
+    .services-area {
+        padding-top: 35px;
+    }
+    .pricings-area.ptwoss.mt-5{
+        margin-top: 30px !important;
+    }
+
+    .container.mb-5{
+        margin-bottom: 25px !important;
+    }
+
+    .pricings-area{
+        margin-bottom: 0px;
+    }
+
+    .designs-area {
+        padding: 35px 0;
+    }
+
+    .design-area{
+        padding: 35px 0 30px;
+    }
+
+    .designs-area .section_title {
+        margin-bottom: 30px;
+    }
+
+    .ttls {
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    .photoss .b_cont h2 {
+        margin-bottom: 30px;
+    }
+
+    section.client_choose {
+        margin: 40px 0 20px;
+    }
+
+    a.readBtn {
+        margin-top: 15px;
+    }
+    section.portfolio.prts .pricings-area.ptwoss .pricing_tab ul#pills-tab {
+        margin-bottom: 35px !IMPORTANT;
+    }
+
+    .pt_btn a {
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+
+    .ab_we.v2{
+        margin-top: 22px;
+    }
+
+    .pro_blk {
+        margin-top: 40px;
+    }
+
+    .pro_blk i {
+        margin-bottom: 15px;
+    }
+
+    .flip_step .stps {
+        margin-top: 45px;
+    }
+
+    .flip_step {
+        margin-top: 50px;
+    }
+
+    .fl_co h4 {
+        margin-bottom: 10px;
+    }
+
+    .mcnc br{
+        display: none;
+    }
+    .flip_top_p br{
+        display: none;
+    }
+    .home_test_p br{
+        display: none;
+    }
+}
